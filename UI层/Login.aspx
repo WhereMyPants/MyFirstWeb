@@ -6,15 +6,25 @@
     <table>
         <tr>
             <td>用户名:</td>
-            <asp:TextBox ID="txtusername" runat="server"></asp:TextBox>
+            <td>
+                <asp:TextBox ID="txtusername" runat="server"></asp:TextBox>
+            </td>
         </tr>
         <tr>
             <td>密码:</td>
-            <asp:TextBox ID="txtpassword" runat="server" TextMode="Password"></asp:TextBox>
+            <td>
+                <asp:TextBox ID="txtpassword" runat="server" TextMode="Password"></asp:TextBox>
+            </td>
+            
         </tr>
         <tr>
-            <asp:Button ID="btnlogin" runat="server" Text="登 陆" />
-            <asp:Button ID="btnregist" runat="server" Tect="注 册" />
+            <td>
+                <asp:Button ID="btnlogin" runat="server" Text="登 陆" />
+            </td>
+            <td>
+                <asp:Button ID="btnregist" runat="server" Text="注 册" />
+            </td>
+            
         </tr>
     </table>
 </asp:Content>
